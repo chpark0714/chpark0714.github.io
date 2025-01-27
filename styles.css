@@ -418,4 +418,48 @@ body {
 .research-details li {
     margin-bottom: 0.8rem;
     line-height: 1.6;
+}
+
+/* Teaching Experience Styles */
+.teaching-item {
+    padding: 1.5rem 0;
+}
+
+.course-list {
+    list-style-type: none;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.course-list li {
+    margin-bottom: 0.5rem;
+    color: var(--text-color);
+}
+
+.teaching-details {
+    list-style-type: disc;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+}
+
+.teaching-details li {
+    margin-bottom: 0.8rem;
+    line-height: 1.6;
+}
+
+/* Work Experience Styles */
+.work-item {
+    padding: 1.5rem 0;
+}
+
+.work-details {
+    list-style-type: disc;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+}
+
+.work-details li {
+    margin-bottom: 0.8rem;
+    line-height: 1.6;
+    color: var(--text-color);
 } 
