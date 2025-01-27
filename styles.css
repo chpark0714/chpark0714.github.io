@@ -196,6 +196,18 @@ body {
     line-height: 1.6;
 }
 
+.publication-item p::before {
+    content: open-quote;
+}
+
+.publication-item p::after {
+    content: close-quote;
+}
+
+.publication-item p > span {
+    font-style: italic;
+}
+
 .publication-list {
     display: flex;
     flex-direction: column;
