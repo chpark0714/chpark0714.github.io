@@ -77,6 +77,37 @@ body {
     box-shadow: 0 2px 15px rgba(0,0,0,0.1);
 }
 
+.location {
+    color: var(--secondary-color);
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.period {
+    color: #666;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.card h3 {
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.card h4 {
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+.card ul {
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+}
+
+.card li {
+    margin-bottom: 0.5rem;
+}
+
 @media (max-width: 768px) {
     .nav-links {
         display: none;
@@ -86,4 +117,151 @@ body {
         height: auto;
         padding-top: 6rem;
     }
+}
+
+.publication-item {
+    padding: 1rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+.publication-item:last-child {
+    border-bottom: none;
+}
+
+.publication-item p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+.publication-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.card h3 {
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+.presentation-item {
+    padding: 1.5rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+.presentation-item:last-child {
+    border-bottom: none;
+}
+
+.presentation-item h4 {
+    color: var(--primary-color);
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.presentation-venue {
+    color: var(--secondary-color);
+    font-weight: 500;
+    margin-bottom: 0.3rem;
+}
+
+.presentation-location {
+    color: #666;
+    margin-bottom: 0.3rem;
+}
+
+.presentation-date {
+    color: #666;
+    font-style: italic;
+}
+
+.presentation-list {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Lecture Styles */
+.lecture-item {
+    padding: 1.5rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+.lecture-item:last-child {
+    border-bottom: none;
+}
+
+.lecture-topic {
+    color: var(--secondary-color);
+    font-weight: 500;
+    margin-bottom: 0.3rem;
+}
+
+.lecture-venue {
+    color: #666;
+    margin-bottom: 0.3rem;
+}
+
+/* Award Styles */
+.award-item {
+    padding: 1.5rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+.award-item:last-child {
+    border-bottom: none;
+}
+
+.award-detail {
+    color: var(--secondary-color);
+    font-weight: 500;
+    margin: 0.5rem 0;
+}
+
+/* Review Styles */
+.review-item {
+    padding: 1.5rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+.review-item:last-child {
+    border-bottom: none;
+}
+
+.review-title {
+    color: var(--primary-color);
+    font-weight: 500;
+    margin-bottom: 0.3rem;
+}
+
+.review-journal {
+    color: var(--secondary-color);
+    margin-bottom: 0.3rem;
+}
+
+/* Scholarship Styles */
+.scholarship-item {
+    padding: 1.5rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+.scholarship-item:last-child {
+    border-bottom: none;
+}
+
+.scholarship-amount {
+    color: var(--secondary-color);
+    font-weight: 700;
+    margin: 0.5rem 0;
+}
+
+.scholarship-org {
+    color: #666;
+    margin-bottom: 0.3rem;
+}
+
+.scholarship-period {
+    color: #666;
+    font-style: italic;
 } 
