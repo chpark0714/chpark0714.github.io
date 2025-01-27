@@ -264,4 +264,82 @@ body {
 .scholarship-period {
     color: #666;
     font-style: italic;
+}
+
+/* Project Styles */
+.project-item {
+    padding: 1.5rem 0;
+}
+
+.project-item h3 {
+    color: var(--primary-color);
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+.project-details {
+    list-style-type: disc;
+    margin-left: 1.5rem;
+}
+
+.project-details li {
+    margin-bottom: 0.8rem;
+    line-height: 1.6;
+    color: var(--text-color);
+}
+
+.project-item:hover {
+    transform: translateY(-2px);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    transition: box-shadow 0.3s ease;
+}
+
+/* Education Styles */
+.education-item {
+    padding: 1.5rem 0;
+}
+
+.degree {
+    color: var(--secondary-color);
+    font-weight: 500;
+    margin: 0.5rem 0;
+}
+
+.dissertation {
+    color: var(--text-color);
+    font-style: italic;
+    margin-top: 0.5rem;
+}
+
+/* Research Styles */
+.research-item {
+    padding: 1.5rem 0;
+}
+
+.organization {
+    color: var(--secondary-color);
+    font-weight: 500;
+    margin: 0.3rem 0;
+}
+
+.department {
+    color: #666;
+    margin-bottom: 0.3rem;
+}
+
+.research-details {
+    list-style-type: disc;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+}
+
+.research-details li {
+    margin-bottom: 0.8rem;
+    line-height: 1.6;
 } 
