@@ -44,12 +44,24 @@ body {
     overflow: hidden;
     border: 4px solid white;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
 }
 
 .profile-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transition: filter 0.3s ease;
+}
+
+.profile-image:hover img {
+    filter: brightness(0.9);
 }
 
 .hero-content h1 {
@@ -581,4 +593,49 @@ body {
 
 .download-button:hover svg {
     transform: translateY(2px);
+}
+
+/* Publication Styles */
+.publication-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.publication-links {
+    display: flex;
+    gap: 0.5rem;
+    flex-shrink: 0;
+}
+
+.link-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.link-button {
+    color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+}
+
+.link-button:hover {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .publication-content {
+        flex-direction: column;
+    }
+    
+    .publication-links {
+        margin-top: 0.5rem;
+    }
 } 
